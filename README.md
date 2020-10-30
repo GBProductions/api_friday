@@ -10,25 +10,32 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open terminal._
+* _Navigate to Desktop._
+* _Type "git clone https://github.com/GBProductions/volunteer-tracker.git" into command line and press ENTER._
+* _Navigate to project-tracker directory folder and type "code ." into command line._
+* _Run "gem install bundler" in command line to install bundler._
+* _Run "bundle install"._
+* _Type "rails db:create" into terminal._
+* _Type "rails db:migrate" into terminal._
+* _Type "rails s" into command line to start the server.
+* _Open browser and enter "localhost:3000" into address bar._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For support, contact Garrett Brown at <garrettpaulbrown@gmail.com>_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _Ruby on Rails_
+* _VS Code_
+* _API_
+* _Postman_
 
 ### License
 
