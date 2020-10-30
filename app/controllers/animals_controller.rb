@@ -1,27 +1,27 @@
 class AnimalsController < ApplicationController
 
   def index
-    @animals = animal.all
+    @animals = Animal.all
     json_response(@animals)
   end
 
   def show
-    @animal = animal.find(params[:id])
+    @animal = Animal.find(params[:id])
     json_response(@animal)
   end
 
   def create
-    @animal = animal.create(animal_params)
+    @animal = Animal.create(animal_params)
     json_response(@animal)
   end
 
   def update
-    @animal = animal.find(params[:id])
+    @animal = Animal.find(params[:id])
     @animal.update(animal_params)
   end
 
   def destroy
-    @animal = animal.find(params[:id])
+    @animal = Animal.find(params[:id])
     @animal.destroy
   end
 
